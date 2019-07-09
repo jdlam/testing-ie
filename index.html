@@ -1,0 +1,15 @@
+<html>
+    hi world
+    this is a test page for some IE 11 stuff
+</html>
+
+<script src="javascript">
+    var testing = function () {
+        console.log(arguments)
+        var args = Array.prototype.slice.call(arguments)
+        console.log(args)
+        return true
+    }
+    testing()
+    testing('asdf')
+</script>
